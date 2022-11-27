@@ -1,3 +1,25 @@
 Spinning up Apache Airflow webserver on local with the help of Docker containers. - 
 a very handuy and light method to get Airflow up and running without having to create so many directories or virtual environments.
 
+Thanks to the reference on the blog=medium.
+
+mkdir Astro-Airflow && cd Astro-Airflow
+
+astro dev init (from within Astro-Airflow)
+
+
+ls
+Dockerfile		dags			plugins
+README.md		include			requirements.txt
+airflow_settings.yaml	packages.txt		tests
+
+
+astro dev start
+
+
+
+Airflow Webserver: http://localhost:8080
+Postgres Database: localhost:5432/postgres
+The default Airflow UI credentials are: admin:admin
+The default Postgres DB credentials are: postgres:postgres
+
