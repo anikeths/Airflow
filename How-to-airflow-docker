@@ -1,0 +1,3 @@
+Spinning up Apache Airflow webserver on local with the help of Docker containers. - 
+a very handuy and light method to get Airflow up and running without having to create so many directories or virtual environments.
+
